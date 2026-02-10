@@ -1,0 +1,37 @@
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.dotCover
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+# App settings (secrets)
+appsettings.json
+appsettings.*.json
+!appsettings.template.json
